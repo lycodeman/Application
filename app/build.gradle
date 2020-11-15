@@ -30,6 +30,22 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    productFlavors {
+        Xiaomi {
+            applicationId 'com.example.myapplication'
+            manifestPlaceholders = [
+                    app_name     : "我的App小米渠道"
+            ]
+        }
+
+        Huawei {
+            applicationId 'com.example.myapplication'
+            manifestPlaceholders = [
+                    app_name     : "我的App华为渠道",
+            ]
+        }
+    }
 }
 
 dependencies {
