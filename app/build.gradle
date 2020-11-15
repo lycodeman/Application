@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdkVersion COMPILE_SDK_VERSION
+    compileSdkVersion COMPILE_SDK_VERSION as int
     buildToolsVersion BUILD_TOOLS_VERSION
 
     defaultConfig {
